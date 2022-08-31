@@ -1,0 +1,11 @@
+﻿  solucion.c
+D:\nahuel\Documentos\Universidad\Segundo\Sintaxis y semantica de los lenguajes\Trabajos Practicos\SSL-TP3\SSL-TP3\solucion.c(72,32): warning C4047: '==': 'int' es distinto en los niveles de direccionamiento indirecto de 'void *'
+D:\nahuel\Documentos\Universidad\Segundo\Sintaxis y semantica de los lenguajes\Trabajos Practicos\SSL-TP3\SSL-TP3\solucion.c(115,28): warning C4047: '==': 'int' es distinto en los niveles de direccionamiento indirecto de 'void *'
+D:\nahuel\Documentos\Universidad\Segundo\Sintaxis y semantica de los lenguajes\Trabajos Practicos\SSL-TP3\SSL-TP3\solucion.c(157,55): warning C4047: '==': 'int' es distinto en los niveles de direccionamiento indirecto de 'void *'
+D:\nahuel\Documentos\Universidad\Segundo\Sintaxis y semantica de los lenguajes\Trabajos Practicos\SSL-TP3\SSL-TP3\solucion.c(201,55): warning C4047: '==': 'int' es distinto en los niveles de direccionamiento indirecto de 'void *'
+D:\nahuel\Documentos\Universidad\Segundo\Sintaxis y semantica de los lenguajes\Trabajos Practicos\SSL-TP3\SSL-TP3\solucion.c(251,55): warning C4047: '==': 'int' es distinto en los niveles de direccionamiento indirecto de 'void *'
+D:\nahuel\Documentos\Universidad\Segundo\Sintaxis y semantica de los lenguajes\Trabajos Practicos\SSL-TP3\SSL-TP3\solucion.c(283,55): warning C4047: '==': 'int' es distinto en los niveles de direccionamiento indirecto de 'void *'
+D:\nahuel\Documentos\Universidad\Segundo\Sintaxis y semantica de los lenguajes\Trabajos Practicos\SSL-TP3\SSL-TP3\solucion.c(307,159): warning C4047: '!=': 'int' es distinto en los niveles de direccionamiento indirecto de 'void *'
+D:\nahuel\Documentos\Universidad\Segundo\Sintaxis y semantica de los lenguajes\Trabajos Practicos\SSL-TP3\SSL-TP3\solucion.c(335,33): warning C4047: '==': 'int' es distinto en los niveles de direccionamiento indirecto de 'void *'
+D:\nahuel\Documentos\Universidad\Segundo\Sintaxis y semantica de los lenguajes\Trabajos Practicos\SSL-TP3\SSL-TP3\solucion.c(355,28): warning C4047: '==': 'int' es distinto en los niveles de direccionamiento indirecto de 'void *'
+  SSL-TP3.vcxproj -> D:\nahuel\Documentos\Universidad\Segundo\Sintaxis y semantica de los lenguajes\Trabajos Practicos\SSL-TP3\x64\Debug\SSL-TP3.exe
