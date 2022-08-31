@@ -8,7 +8,6 @@
 int automataCadena(char palabra[]) {
 	int estado = 0;
 	int palabraRechazada = 1; // 0 es true, 1 es false
-	// int tamanoPalabra = sizeof(palabra) / sizeof(char);
 	int pos = 0;
 	
 	while (palabraRechazada != 0) {
@@ -130,10 +129,9 @@ int automataIdentificador(char palabra[]) {
 int automataChar(char palabra[]) {
 	int estado = 0;
 	int palabraRechazada = 1; // 0 es true, 1 es false
-	int tamanoPalabra = sizeof(palabra) / sizeof(char); // tamaño del palabra
 	int pos = 0;
 
-	while (palabraRechazada != 0 && pos <= tamanoPalabra) {
+	while (palabraRechazada != 0) {
 		switch (estado) {
 		case (0):
 			if (palabra[pos] == 'c')
@@ -168,10 +166,9 @@ int automataChar(char palabra[]) {
 int automataPrint(char palabra[]) {
 	int estado = 0;
 	int palabraRechazada = 1; // 0 es true, 1 es false
-	int tamanoPalabra = sizeof(palabra) / sizeof(char); // tamaño del palabra
 	int pos = 0;
 
-	while (palabraRechazada != 0 && pos <= tamanoPalabra) {
+	while (palabraRechazada != 0) {
 		switch (estado) {
 		case (0):
 			if (palabra[pos] == 'p')
@@ -212,10 +209,9 @@ int automataPrint(char palabra[]) {
 int automataDouble(char palabra[]) {
 	int estado = 0;
 	int palabraRechazada = 1; // 0 es true, 1 es false
-	int tamanoPalabra = sizeof(palabra) / sizeof(char); // tamaño del palabra
 	int pos = 0;
 
-	while (palabraRechazada != 0 && pos <= tamanoPalabra) {
+	while (palabraRechazada != 0) {
 		switch (estado) {
 		case (0):
 			if (palabra[pos] == 'd')
@@ -262,10 +258,9 @@ int automataDouble(char palabra[]) {
 int automataInt(char palabra[]) {
 	int estado = 0;
 	int palabraRechazada = 1; // 0 es true, 1 es false
-	int tamanoPalabra = sizeof(palabra) / sizeof(char); // tamaño del palabra
 	int pos = 0;
 
-	while (palabraRechazada != 0 && pos <= tamanoPalabra) {
+	while (palabraRechazada != 0) {
 		switch (estado) {
 		case (0):
 			if (palabra[pos] == 'i')
@@ -366,6 +361,13 @@ int automataConstante(char palabra[]) {
 
 int main()
 {
+	// Casos de prueba
+	// char str[] = "123";
+	// char str[] = "+";
+	// char str[] = "print";
+	// char str[] = "\"ASD123asd\"";
+	// char str[] = "soyUnIdentificador123";
+	// char str[] = "\"\"";
 	char str[] = "holamundo";
 
 	int esPalabraReservada = automataPalabraReservada(str);
